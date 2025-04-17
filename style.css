@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #ffe4ec; /* hồng nhạt dễ thương */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff0f5;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.yes-button, .no-button {
+  font-size: 1.3em;
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.yes-button {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.no-button {
+  background-color: #90caf9;
+  color: white;
+}
+
+.yes-button:hover, .no-button:hover {
+  transform: scale(1.05);
+}
+
+.message {
+  font-size: 1.1em;
+  color: #555;
+  margin-top: 10px;
+  min-height: 24px;
+}
+
+.gif_container img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+}
